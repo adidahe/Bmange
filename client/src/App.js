@@ -4,11 +4,12 @@ import Home from "./Home/Home.jsx";
 import Inbox from "./Inbox/Inbox";
 import Statistics from "./Statistics/Statistics";
 import { Route, Routes } from "react-router-dom";
-import Chat from "./Chat/Chat";
+
 import Issues from "./Issues/Issues";
 import Polls from "./Polls/Polls";
 import DashBoard from "./DashBoard/DashBoard";
 import AddBills from "./AddBills/AddBills";
+import Newchat from "./Newchat/Newchat";
 
 function App() {
   document.body.style = "background: #f5f5f5;";
@@ -22,7 +23,7 @@ function App() {
       <Route path="/statistics" element={<Statistics />} />
       <Route path="/profile" element={<Home />} />
       <Route path="/Polls" element={<Polls />} />
-      <Route path="/chat" element={<Chat />} />
+      <Route path="/chat" element={<Newchat />} />
       <Route path="/addBill" element={<AddBills />} />
     </Routes>
   );
