@@ -1,0 +1,67 @@
+.attatchfile-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 95%;
+  margin-top: 25px;
+  padding-bottom: 15px;
+  color: #919499;
+  padding-left: 20px;
+  border-radius: 30px;
+  justify-content: center;
+}
+.attatchfile-title {
+  margin-top: 15px;
+  font-size: 18px;
+}
+.attatchfile-iconContianer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+.attatchfile-icon {
+  width: 90px;
+  height: 90px;
+  margin-left: 60px;
+  border: none;
+}
+.addphotoButton {
+  background-color: white;
+  border: none;
+  height: 100%;
+}
+.editButton {
+  background-color: white;
+  border: none;
+  height: 100%;
+}
+.ReportButtonContainer {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  align-content: center;
+}
+.ReportButton {
+  display: flex;
+  width: 220px;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  background-color: #488d9f;
+  border: none;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.ReportButton-icon {
+  margin-left: 5px;
+}
+.ReportButton:hover {
+  cursor: pointer;
+}
+.ReportButton:focus {
+  background-color: #44c08a;
+}
